@@ -1,5 +1,18 @@
+//app.js
+//
+//Prompt Engine
+//This code has a bunch of little programs that prompt the user for information.
+//1. asks for first and last name and combines to full name
+//2.  converts number of dog years to number of human years
+//3.  tells you if you are old enough to drink
+//4.  Asks for a temp in F or C and then converts to other temp scale
+//5.  Calculates your BMI in either metric or american units
+//
+//Z. Ames 7/8/14
+
+
 var prompt = require('sync-prompt').prompt;
-/*
+
 var first = prompt('What is your first name? ');
 var last = prompt('What is your last name? ');
 console.log('your full name is: ', first , ' ', last);
@@ -42,7 +55,7 @@ if (unit === 'C'){
 }else{
   var newTempC = (5/9)*(temp-32);//convert F to C
   console.log(temp+' degrees F is '+newTempC+ ' C');}
-*/
+
 
 //BMI calculator
 var unit = prompt('Would you like to use Metic or \'merican units? (met/am) ');
